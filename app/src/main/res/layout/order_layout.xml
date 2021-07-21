@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardElevation="4dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="15dp"
+    app:cardUseCompatPadding="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_gravity="center_vertical"
+
+        android:background="@drawable/rounded_corner"
+        android:backgroundTint="#F2DDDADB"
+
+        >
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="9">
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical|start"
+                android:textAllCaps="true"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:text="Fodd10"
+                android:id="@+id/OrderId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical|start"
+                android:textAllCaps="true"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                android:text="STATUS"
+                android:id="@+id/OrderStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical|start"
+                android:textAllCaps="true"
+                android:textSize="25dp"
+                android:textStyle="normal"
+                android:text="9435050909"
+                android:id="@+id/OrderPhone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical|start"
+                android:textAllCaps="true"
+                android:textSize="25dp"
+                android:textStyle="normal"
+                android:text="Name"
+                android:id="@+id/CustumerName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical|start"
+                android:textAllCaps="true"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:text="address"
+                android:id="@+id/OrderAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical|start"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:text="Total Amount:  Rs"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+                   
+                       
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical|start"
+                    android:textAllCaps="true"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+
+                    android:id="@+id/totalAmount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+</LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_margin="10dp"
+                android:weightSum="2"
+                android:orientation="horizontal">
+                <info.hoang8f.widget.FButton
+                    android:id="@+id/detailbtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="DETAIL"
+                    >
+                </info.hoang8f.widget.FButton>
+                <info.hoang8f.widget.FButton
+                    android:id="@+id/trackBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/black"
+                    android:layout_weight="1"
+                    android:text="TRack"
+                    android:textColor="@color/white"
+                    >
+                </info.hoang8f.widget.FButton>
+
+            </LinearLayout>
+                        
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+
+
+</androidx.cardview.widget.CardView>

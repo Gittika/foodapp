@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash"
+   android:backgroundTintMode="add"
+    android:backgroundTint="#2FC1C0B2"
+    tools:context=".splashScreenActivity">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/slideViewPager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+
+    </androidx.viewpager.widget.ViewPager>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        >
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            >
+
+
+
+    <Button
+        android:id="@+id/prevBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        android:background="@drawable/rounded_corner"
+        android:backgroundTint="#E4DFA3"
+        android:text="prev"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:layout_alignParentLeft="true" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:id="@+id/dotLayout"
+            android:orientation="horizontal"></LinearLayout>
+
+        <Button
+            android:id="@+id/nextBtn"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+android:layout_centerVertical="true"
+            android:background="@drawable/rounded_corner"
+            android:backgroundTint="#E4DFA3"
+            android:text="next"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

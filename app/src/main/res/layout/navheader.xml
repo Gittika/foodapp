@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#EC568B"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="asdf"
+        android:textSize="30dp"
+        android:textAllCaps="true"
+        android:id="@+id/UserFullName"
+        android:textColor="@color/black"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+
+        android:text="gittikaagarwal@gmail.com"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/UserEmailId"
+        android:textSize="20dp">
+
+    </TextView>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
